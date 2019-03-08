@@ -22,7 +22,7 @@ EMQ X Edge R3.1 配置文件
 +----------------------------+-------------------------------------+
 
 
-注意！
+注意:
 ------
   这里仅列出配置 EMQ X Edge 桥接（bridge）相关的参数，其他参数配置（如环境变量，日志，认证，协议参数等），请参考[EMQ X Broker文档](https://developer.emqx.io/docs/emq/v3/cn/config.html)。
 
