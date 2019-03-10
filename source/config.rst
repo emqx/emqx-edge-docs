@@ -99,7 +99,7 @@ Bridges to  aws 参数设置
     bridge.aws.subscription.2.qos = 1
 
     ## Start type of the bridg: manual | auto
-    bridge.aws.start_type = manua
+    bridge.aws.start_type = manual
 
     ## Bridge reconnection interval
     bridge.aws.reconnect_interval = 30s
