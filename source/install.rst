@@ -5,7 +5,36 @@
 程序安装 (Installation)
 =======================
 
-*EMQ X Edge* 消息服务器3.1版本支持 CentOS、Alpine、Raspbian和Docker镜像安装。
+*EMQ X Edge* 消息服务器3.1版本支持 CentOS、Alpine、Raspbian、Debian、Ubuntu和Docker镜像安装。
+
++-------------+
+| CentOS6.8   |
++-------------+
+| CentOS7     |
++-------------+
+| Debian7     |
++-------------+
+| Debian8     |
++-------------+
+| Debian9     |
++-------------+
+| Alpine3.8   |
++-------------+
+| Raspbian8   |
++-------------+
+| Raspbian9   |
++-------------+
+| Ubuntu12.04 |
++-------------+
+| Ubuntu14.04 |
++-------------+
+| Ubuntu16.04 |
++-------------+
+| Ubuntu18.04 |
++-------------+
+| Docker      |
++-------------+
+
 
 .. _install_via_zip:
 
@@ -17,24 +46,42 @@ Linux 通用包安装
 下载地址: https://www.emqx.io/downloads/edge
 
 +-------------+-----------------------------------------------+
-| CentOS7     | emqx-edge-centos7-v3.1-beta1.zip              |
+| CentOS6.8   | emqx-edge-centos6.8-v3.1-beta.1.zip           |
 +-------------+-----------------------------------------------+
-| Alpine3.8   | emqx-edge-alpine3.8-amd64-v3.1-beta1.zip      |
+| CentOS7     | emqx-edge-centos7-v3.1-beta.1.zip             |
 +-------------+-----------------------------------------------+
-| Alpine3.8   | emqx-edge-alpine3.8-arm64v8-v3.1-beta1.zip    |
+| Alpine3.8   | emqx-edge-alpine3.8-amd64-v3.1-beta.1.zip     |
 +-------------+-----------------------------------------------+
-| Raspbian8   | emqx-edge-raspbian8-v3.1-beta1.zip            |
+| Alpine3.8   | emqx-edge-alpine3.8-arm64v8-v3.1-beta.1.zip   |
 +-------------+-----------------------------------------------+
-| Raspbian9  | emqx-edge-raspbian9-v3.1-beta1.zip             |
+| Debian7     | emqx-edge-debian7-v3.1-beta.1.zip             |
++-------------+-----------------------------------------------+
+| Debian8     | emqx-edge-debian8-v3.1-beta.1.zip             |
++-------------+-----------------------------------------------+
+| Debian9     | emqx-edge-debian9-v3.1-beta.1.zip             |
++-------------+-----------------------------------------------+
+| Raspbian8   | emqx-edge-raspbian8-v3.1-beta.1.zip           |
++-------------+-----------------------------------------------+
+| Raspbian9   | emqx-edge-raspbian9-v3.1-beta.1.zip           |
++-------------+-----------------------------------------------+
+| Ubuntu12.04 | emqx-edge-ubuntu12.04-v3.1-beta.1.zip         |
++-------------+-----------------------------------------------+
+| Ubuntu14.04 | emqx-edge-ubuntu14.04-v3.1-beta.1.zip         |
++-------------+-----------------------------------------------+
+| Ubuntu16.04 | emqx-edge-ubuntu16.04-v3.1-beta.1.zip         |
++-------------+-----------------------------------------------+
+| Ubuntu18.04 | emqx-edge-ubuntu18.04-v3.1-beta.1.zip         |
 +-------------+-----------------------------------------------+
 
-安装包命名由平台、版本组成，例如: emqx-edge-centos7-v3.1-beta1.zip
+
+
+安装包命名由平台、版本组成，例如: emqx-edge-centos7-v3.1-beta.1.zip
 
 以CentOS 平台为例，下载安装过程:
 
 .. code-block:: bash
 
-    unzip emqx-edge-centos7-v3.1-beta1.zip
+    unzip emqx-edge-centos7-v3.1-beta.1.zip
 
 控制台调试模式启动，检查 *EMQ X Edge* 是否可正常启动:
 
@@ -94,10 +141,12 @@ CTRL+C 关闭控制台。
 RPM 包安装
 ----------
 
-EMQ X Edge 3.1版本仅支持 CentOS7 RPM 程序包:
+EMQ X Edge 3.1版本支持 CentOS6.8和7的RPM 程序包:
 
 +-------------+--------------------------------------------------+
-| CentOS7     | emqx-edge-centos7-v3.1.x86_64.rmp                |
+| CentOS6.8   | emqx-edge-centos6.8-v3.1-beta.1.x86_64.rmp       |
++-------------+--------------------------------------------------+
+| CentOS7     | emqx-edge-centos7-v3.1-beta.1.x86_64.rmp         |
 +-------------+--------------------------------------------------+
 
 安装包命名由平台、版本、操纵系统位数组成。
@@ -109,7 +158,7 @@ RPM 安装
 
 .. code-block:: console
 
-    rpm -ivh emqx-edge-centos7-v3.1.x86_64.rmp 
+    rpm -ivh emqx-edge-centos7-beta.1-v3.1.x86_64.rmp 
 
 配置文件
 --------
@@ -141,11 +190,17 @@ DEB 包安装
 
 EMQ X Linux DEB 程序包:
 
-+-------------+---------------------------------------------------+
-| Raspbian8   | emqx-edge-raspbian8-v3.1-beta1_armhf.deb          |
-+-------------+---------------------------------------------------+
-| Raspbian9   | emqx-edge-raspbian9-v3.1-beta1_armhf.deb          |
-+-------------+---------------------------------------------------+
++-------------+-----------------------------------------------+
+| Raspbian8   | emqx-edge-raspbian8-v3.1-beta1_armhf.deb      |
++-------------+-----------------------------------------------+
+| Raspbian9   | emqx-edge-raspbian9-v3.1-beta1_armhf.deb      |
++-------------+-----------------------------------------------+
+| Debian7     | emqx-edge-debian7-v3.1-beta.1_amd64.deb       |
++-------------+-----------------------------------------------+
+| Debian8     | emqx-edge-debian8-v3.1-beta.1_amd64.deb       |
++-------------+-----------------------------------------------+
+| Debian9     | emqx-edge-debian9-v3.1-beta.1_amd64.deb       |
++-------------+-----------------------------------------------+
 
 安装包命名由平台、版本、操纵系统位数组成，如emqx-edge-raspbian8-v3.1-beta1_armhf.deb。
 
