@@ -13,7 +13,7 @@
 *EMQ X Edge* 完整支持 MQTT V3.1/V3.1.1/V5.0 版本协议规范，并支持 MQTT-SN 、TCP、WebSocket、CoAP、Stomp，以及Modbus等工业协议。
 
 
-.. image:: ./_static/images/edge-overview1.png
+.. image:: ./_static/edge-overview1.png
 
 
 *EMQ X Edge* R3.1 项目文档目录:
@@ -40,10 +40,10 @@
 +------------+--------------------------------+
 | Twitter:   | @emqtt                         |
 +------------+--------------------------------+
-| 公司:      | 杭州映云科技有限公司           |
+| 公司:      | 杭州映云科技有限公司             |
 +------------+--------------------------------+
-| 联系:      | hong@emqx.io <hong@emqx.io>    |
+| 联系:      |contact@emqx.io                 |
 +------------+--------------------------------+
 
-.. image:: ./_static/images/weixin.jpg
+.. image:: ./_static/emq.jpg
 
