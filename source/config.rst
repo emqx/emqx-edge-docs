@@ -30,10 +30,11 @@ EMQ X Edge R3.1 配置文件
 桥接（Bridges）配置参数
 ---------------------
 
-*EMQ X Edge* 可以与远程MQTT Server 桥接，如部署在aws, Azure等公有云，或企业私有云。
+*EMQ X Edge* 可以与远程 MQTT Server 桥接，如部署在aws, Azure等公有云，或企业私有云。
 
-这里以桥接到部署在aws上的EMQ X broker为例。
+这里以桥接到部署在 aws 上的 EMQ X broker为例，详细桥接教程参考[EMQ X 节点之间的桥接](https://docs.emqx.io/tutorial/v3/cn/bridge/emqx_to_emqx.html)。
 
+> 升级指南: v3.2.0 版本起，EMQ X Edge 内置桥接功能迁移到 emqx_bridge_mqtt 插件，原 emqx.conf 中桥接相关配置迁移至 etc/plugins/emqx_bridge_mqtt.conf 文件，配置完成后需启动插件以应用配置。
 
 Bridges to  aws 参数设置
 --------------------------
@@ -163,6 +164,8 @@ Bridges to  aws 参数设置
 | etc/plugins/emqx_reloader.conf         | 热加载插件配置                     |
 +----------------------------------------+----------------------------------+
 | etc/plugins/emqx_sn.conf               | MQTT-SN 协议插件配置               |
++----------------------------------------+----------------------------------+
+| etc/plugins/emqx_bridge_mqtt.conf      | MQTT 桥接插件配置 (3.2.0 以后)      |
 +----------------------------------------+----------------------------------+
 | etc/plugins/emqx_stomp.conf            | Stomp 协议插件配置                 |
 +----------------------------------------+----------------------------------+
