@@ -1,0 +1,34 @@
+{
+  "cn": [
+    {
+      "title": "开始使用 (Get Started)",
+      "path": "getstarted"
+    },
+    {
+      "title": "程序安装 (Installation)",
+      "path": "install"
+    },
+    {
+      "title": "配置说明 (Configuration)",
+      "path": "config"
+    }
+  ],
+  "en": [
+    {
+      "title": "Get Started",
+      "path": "getstarted"
+    },
+    {
+      "title": "Installation",
+      "path": "install"
+    },
+    {
+      "title": "Configuration",
+      "path": "config"
+    },
+    {
+      "title": "Plugins",
+      "path": "plugins"
+    }
+  ]
+}
