@@ -1,2 +1,3 @@
-# emqx-edge-cn
-EMQ X Edge 中文文档
+# emqx-edge-docs
+
+EMQ X Edge Docs
