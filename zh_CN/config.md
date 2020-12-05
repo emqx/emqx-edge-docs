@@ -20,7 +20,7 @@ etc/plugins/*.conf |  EMQ X Edge 各类插件配置文件
 
 *EMQ X Edge* 可以与远程 MQTT Server 桥接，如部署在aws, Azure等公有云，或企业私有云。 
 
-这里以桥接到部署在 aws 上的 EMQ X broker为例，详细桥接教程参考[EMQ X 节点之间的桥接]( [ https://docs.emqx.cn/cn/tutorial/v3/bridge/emqx_to_emqx.html ](https://docs.emqx.cn/cn/tutorial/v3/bridge/emqx_to_emqx.html) )。 
+这里以桥接到部署在 aws 上的 EMQ X broker为例，详细桥接教程参考 [EMQ X 节点之间的桥接](https://docs.emqx.net/broker/latest/cn/bridge/bridge.html)。 
 
 > 升级指南: v3.2.0 版本起，EMQ X Edge 内置桥接功能迁移到 emqx_bridge_mqtt 插件，原 emqx.conf 中桥接相关配置迁移至 etc/plugins/emqx_bridge_mqtt.conf 文件，配置完成后需启动插件以应用配置。 
 
