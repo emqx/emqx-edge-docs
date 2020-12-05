@@ -12,7 +12,7 @@ etc/plugins/*.conf |  Config Files of Plugins
 
 ## Note: 
 
-> Please visit EMQ X Doc: [ https://developer.emqx.io/docs/emq/v3/en/config.html ](https://developer.emqx.io/docs/emq/v3/en/config.html) for general EMQ X parameters configuration, say environment variables, log level & file, MQTT protocol parameters, MQTT listeners, and etc. Here only EMQ X Edge related parameters list. 
+> Please visit [EMQ X Doc](https://docs.emqx.io/en/broker/latest/) for general EMQ X parameters configuration, say environment variables, log level & file, MQTT protocol parameters, MQTT listeners, and etc. Here only EMQ X Edge related parameters list. 
 
 ## EMQ X 3.0 Config Syntax 
 
@@ -39,7 +39,7 @@ The configuration files will be preprocessed and translated to Erlang  app.confi
 
 EMQ X Edge can bridge to the remote broker, which can be deployed on cloud, such as aws, azure and so on. The following parameters configurations take aws as an example. 
 
-Refer to [bridge between EMQ X nodes]( [ https://docs.emqx.io/tutorial/v3/en/bridge/emqx_to_emqx.html ](https://docs.emqx.io/tutorial/v3/en/bridge/emqx_to_emqx.html) ) for detailed bridge tutorial. Config Bridge to a Remote Broker on aws: 
+Refer to [bridge between EMQ X nodes](https://docs.emqx.io/broker/latest/en/bridge/bridge.html) for detailed bridge tutorial. Config Bridge to a Remote Broker on aws: 
 
 > Upgrade Guide: Since v3.2.0, the built-in bridging function of EMQ X Edge has been move to emqx﹣bridge﹣mqtt plug-in, and the bridging related configuration in the original emqx.conf needs to migrated to etc/plugins/emqx﹣bridge﹣mqtt.conf file. And after the configuration, the plug-in needs to be started to apply the configuration. 
     
