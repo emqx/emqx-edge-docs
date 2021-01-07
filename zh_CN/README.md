@@ -6,11 +6,11 @@
 
 *EMQ X Edge* 完整支持 MQTT V3.1/V3.1.1/V5.0 版本协议规范，并支持 MQTT-SN 、TCP、WebSocket、CoAP、Stomp 等协议。 
 
-  * MQTT, CoAP, HTTP 以及 MQtt-SN 等各种协议支持 
+  * MQTT, CoAP, HTTP 以及 MQTT-SN 等各种协议支持 
   * x86 网关、工业服务器各种资源受限的边缘设备上运行 
   * 强大规则引擎支持本地数据处理与缓存和云端数据同步 
   * 提供可视化管理控制台与 REST API 方便本地管理 
-  * 与 KubeEdge 或 [ EMQ X edge stack ](https://github.com/emqx/edge-stack/blob/master/README-CN.md) 集成，远程集中管理监控 
+  * 与 KubeEdge 或 [ EMQ X Edge Stack ](https://github.com/emqx/edge-stack/blob/master/README-CN.md) 集成，远程集中管理监控 
 
 ![image](./_static/edge-overview1.png)
 
