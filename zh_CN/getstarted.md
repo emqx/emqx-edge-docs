@@ -31,7 +31,7 @@
     # 启动容器并映射端口
     docker run -d --name emqxedge -p 1883:1883 -p 18083:18083 emqx/emqx-edge
 
-其他格式安装包下载地址: [ https://www.emqx.io/downloads#edge ](https://www.emqx.io/downloads#edge)
+其他格式安装包下载地址: [https://www.emqx.cn/downloads#edge](https://www.emqx.cn/downloads#edge)
 
 *EMQ X Edge* 消息服务默认允许匿名认证，启动后 MQTT 客户端可连接 1883 端口，启动运行日志输出在 log/ 目录。 
 
@@ -64,8 +64,8 @@
 
 ## EMQ 边缘计算系列产品 
 
-  * [ EMQ X Kuiper ](https://www.emqx.io/cn/products/kuiper) : 基于 SQL 的轻量级边缘流式消息处理引擎，可以运行在资源受限的边缘设备上 
-  * [ EMQ X Neuron ](https://www.emqx.io/cn/products/neuron) : 物联网边缘工业协议网关，数十种工业协议一站式接入，支持构建 5G 时代工业 4.0 平台 
+  * [ EMQ X Kuiper ](https://www.emqx.cn/products/kuiper) : 基于 SQL 的轻量级边缘流式消息处理引擎，可以运行在资源受限的边缘设备上 
+  * [ EMQ X Neuron ](https://www.emqx.cn/products/neuron) : 物联网边缘工业协议网关，数十种工业协议一站式接入，支持构建 5G 时代工业 4.0 平台 
   * [ EMQ X Edge Stack ](https://github.com/emqx/edge-stack/blob/master/README-CN.md) : 整合了所有 EMQ 边缘软件，用户可以通过一键式部署开始使用 Edge Stack 
 
 

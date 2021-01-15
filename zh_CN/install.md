@@ -4,7 +4,7 @@
 
 ## 下载安装 
 
-下载地址: [ https://www.emqx.io/downloads#edge ](https://www.emqx.io/downloads#edge)
+下载地址: [https://www.emqx.cn/downloads#edge](https://www.emqx.cn/downloads#edge)
 
 安装包命名由平台、版本组成，例如: emqx-edge-centos8-4.2.2-x86_64.zip 
 
