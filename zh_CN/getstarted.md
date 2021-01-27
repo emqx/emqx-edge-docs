@@ -25,23 +25,26 @@
 *EMQ X Edge* 支持 CentOS、Alpine、Raspbian、Debian、Ubuntu 等平台程序包与 Docker 镜像。 
 
 使用 Docker 快速启动: 
-      
-    # 拉取最新镜像
-    docker pull emqx/emqx-edge
-    # 启动容器并映射端口
-    docker run -d --name emqxedge -p 1883:1883 -p 18083:18083 emqx/emqx-edge
+```bash
+# 拉取最新镜像
+docker pull emqx/emqx-edge
+# 启动容器并映射端口
+docker run -d --name emqxedge -p 1883:1883 -p 18083:18083 emqx/emqx-edge
+
+```
 
 其他格式安装包下载地址: [https://www.emqx.cn/downloads#edge](https://www.emqx.cn/downloads#edge)
 
 *EMQ X Edge* 消息服务默认允许匿名认证，启动后 MQTT 客户端可连接 1883 端口，启动运行日志输出在 log/ 目录。 
 
 ## 源码编译 
-    
-    git clone https://github.com/emqx/emqx-rel.git
-    
-    cd emqx-rel && make emqx-edge
-    
-    cd _build/emqx-edge/rel/emqx && ./bin/emqx console
+```bash
+git clone https://github.com/emqx/emqx-rel.git
+
+cd emqx-rel && make emqx-edge
+
+cd _build/emqx-edge/rel/emqx && ./bin/emqx console
+```
 
 ## 参考资料 
 
@@ -59,15 +62,15 @@
 *EMQ X Edge* 支持丰富的扩展插件，包括扩展模块、多种认证方式、多种接入协议等，详细插件列表与插件机制参照： [ EMQ X 插件管理文档 ](https://docs.emqx.cn/cn/broker/latest/advanced/plugins.html)
 
 扩展插件通过 'bin/emqx_ctl' 管理命令行加载启用。例如启用 MySQL 认证插件: 
-    
-    ./bin/emqx_ctl plugins load emqx_auth_mysql
+```bash
+./bin/emqx_ctl plugins load emqx_auth_mysql
+```
 
 ## EMQ 边缘计算系列产品 
 
   * [ EMQ X Kuiper ](https://www.emqx.cn/products/kuiper) : 基于 SQL 的轻量级边缘流式消息处理引擎，可以运行在资源受限的边缘设备上 
   * [ EMQ X Neuron ](https://www.emqx.cn/products/neuron) : 物联网边缘工业协议网关，数十种工业协议一站式接入，支持构建 5G 时代工业 4.0 平台 
   * [ EMQ X Edge Stack ](https://github.com/emqx/edge-stack/blob/master/README-CN.md) : 整合了所有 EMQ 边缘软件，用户可以通过一键式部署开始使用 Edge Stack 
-
 
 
 ![image](./_static/cloud-deployment.png)

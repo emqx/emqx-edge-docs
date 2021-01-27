@@ -1,4 +1,4 @@
-## Get Started 
+# Get Started 
 
 ## Overview 
 
@@ -34,31 +34,32 @@ The *EMQ X Edge* is cross-platform, which could be deployed on Raspberry Pi, Lin
 Download binary package from: [ http://emqx.io/downloads ](http://emqx.io/downloads) . 
 
 Installing on Linux, for example: 
+```bash
+unzip emqx-edge-centos7-v3.1.zip && cd emqx
     
+# Start EMQ X Edge
+./bin/emqx start
     
-    unzip emqx-edge-centos7-v3.1.zip && cd emqx
+# Check Status
+./bin/emqx_ctl status
     
-    # Start EMQ X Edge
-    ./bin/emqx start
-    
-    # Check Status
-    ./bin/emqx_ctl status
-    
-    # Stop EMQ X
-    ./bin/emqx stop
+# Stop EMQ X
+./bin/emqx stop
+```
 
 ### Installing from Source 
 
 ::: tip Tip
 The *EMQ X Edge* broker requires Erlang/OTP R21+ to build since 3.0 release. 
 :::
+
+```bash
+git clone https://github.com/emqx/emqx.git
     
+cd emqx && make rel
     
-    git clone https://github.com/emqx/emqx.git
-    
-    cd emqx && make rel
-    
-    cd rel/emqx && ./bin/emqx console
+cd rel/emqx && ./bin/emqx console
+```
 
 ## Plugins 
 
@@ -82,9 +83,10 @@ The *EMQ X Edge* broker could be extended by Plugins. A plugin is an Erlang appl
 A plugin could be enabled by 'bin/emqx_ctl plugins load' command. 
 
 For example, enable 'emqx_auth_mysql' plugin: 
-    
-    
-    ./bin/emqx_ctl plugins load emqx_auth_mysql
+
+```bash
+./bin/emqx_ctl plugins load emqx_auth_mysql
+```
 
 ## MQTT Client Libraries 
 

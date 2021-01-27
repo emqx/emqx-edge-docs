@@ -1,6 +1,10 @@
 {
   "cn": [
     {
+      "title": "概览 (Introduction)",
+      "path": "./"
+    },
+    {
       "title": "开始使用 (Get Started)",
       "path": "getstarted"
     },
@@ -14,6 +18,10 @@
     }
   ],
   "en": [
+    {
+      "title": "Introduction",
+      "path": "./"
+    },
     {
       "title": "Get Started",
       "path": "getstarted"
