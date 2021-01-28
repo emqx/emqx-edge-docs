@@ -187,9 +187,9 @@ docker exec -it emq31 /bin/sh
 
 The *EMQ X Edge* broker 3.1 requires Erlang/OTP R21+ and git client to build: 
 
-Install Erlang: [ http://www.erlang.org/ ](http://www.erlang.org/)
+Install Erlang: [ https://www.erlang.org/ ](https://www.erlang.org/)
 
-Install Git Client: [ http://www.git-scm.com/ ](http://www.git-scm.com/)
+Install Git Client: [ https://www.git-scm.com/ ](https://www.git-scm.com/)
 
 Could use apt-get on Ubuntu, yum on CentOS/RedHat and brew on Mac to install Erlang and Git. 
 

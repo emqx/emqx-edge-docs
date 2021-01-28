@@ -312,7 +312,7 @@ stomp.listener.max_clients = 512
 
 Recon Plugin: [ https://github.com/emqx/emqx-recon ](https://github.com/emqx/emqx-recon)
 
-The plugin loads [ recon ](http://ferd.github.io/recon/) library on a running *EMQ X* broker. Recon library helps debug and optimize an Erlang application. 
+The plugin loads [ recon ](https://ferd.github.io/recon/) library on a running *EMQ X* broker. Recon library helps debug and optimize an Erlang application. 
 
 ### Configure Recon Plugin 
 

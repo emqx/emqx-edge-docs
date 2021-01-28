@@ -16,11 +16,11 @@ _EMQ X Edge_ 完整支持 MQTT V3.1/V3.1.1/V5.0 版本协议规范，并支持 M
 
 _EMQ X_ 项目支持与联系:
 
-| 官网:    | [http://www.emqx.cn](http://www.emqx.cn)                     |
+| 官网:    | [https://www.emqx.cn](https://www.emqx.cn)                     |
 | -------- | ------------------------------------------------------------ |
 | 项目:    | [https://github.com/emqx/emqx](https://github.com/emqx/emqx) |
 | 微信:    | EMQ303                                                       |
-| 微博:    | [http://weibo.com/emqtt](http://weibo.com/emqtt)             |
+| 微博:    | [https://weibo.com/emqtt](https://weibo.com/emqtt)             |
 | Twitter: | @emqtt                                                       |
 | 公司:    | 杭州映云科技有限公司                                         |
 | 联系:    | contact@emqx.io                                              |

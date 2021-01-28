@@ -31,7 +31,7 @@ Highlights of the *EMQ X Edge Broker* :
 
 The *EMQ X Edge* is cross-platform, which could be deployed on Raspberry Pi, Linux and FreeBSD. 
 
-Download binary package from: [ http://emqx.io/downloads ](http://emqx.io/downloads) . 
+Download binary package from: [ https://emqx.io/downloads ](https://emqx.io/downloads) . 
 
 Installing on Linux, for example: 
 ```bash
